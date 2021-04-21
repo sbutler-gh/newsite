@@ -1,4 +1,8 @@
-# This is a template for a website based on Svelte (because it allows you to do amazing things) and Indieweb standards, with perfectmotherfucking accessibility and minimalism
+# Svelte + Indieweb New Site Template
+
+Svelte lets you do powerful things, simply and easily.  Indieweb is about owning your content and a decentralized Internet.  [https://perfectmotherfuckingwebsite.com/](https://perfectmotherf***ingwebsite.com/) is about minimalism, simplicity, and accessibility.
+
+This repo is an easy template for new sites, built on all 3.
 
 **Get started:**
 
