@@ -8,9 +8,9 @@
 4. Push it to GitHub/GitLab and host it with Netlify
 
 
-> Follow the Indiewebify steps (https://indiewebify.me/) to get everything setup
+> 2. Follow the Indiewebify steps (https://indiewebify.me/) to get everything setup
 
-Hcard and Hentry components have been configured in src/lib.  You should adjust these for yourself.
+h-card and h-entry components have been configured in src/lib.  You should adjust these for yourself.
 
 Then, you can insert them in any page like this:
 
@@ -19,17 +19,17 @@ Then, you can insert them in any page like this:
 
 You can see an example of how to include this in src/index.svelte
 
-> Edit the content of existing files/folders, or create new files folders as desired
+> 3. Edit the content of existing files/folders, or create new files folders as desired
 
 Currently, in routes, there is a  posts folder and a projects folder.
 
 You may have many files in posts to represent different posts.  Just add those files in that folder, and they will be accessible like this:
 
-yourdomain.com/posts/filename
+`yourdomain.com/posts/filename`
 
 If you want to create a "home" page for that folder — like a catalog of all of your posts — then make that an "index" file inside that folder.
 
-When someone vistist  yourdomain.com/posts, they will see the index.svelte file in the posts folder.  When someone visits yourdomain.com/yourfolder, they will see the index.svelte file in the yourfolder folder.
+When someone visits  `yourdomain.com/posts`, they will see the `index.svelte` file in the `/posts` folder.  When someone visits `yourdomain.com/yourfolder`, they will see the `index.svelte` file in the `/yourfolder` folder.
 
 # create-svelte
 
